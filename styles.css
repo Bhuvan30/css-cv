@@ -1,68 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 10px;
+}
+h3{
+    margin: 5;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 
-<head>
-    <meta charset="UTF-8">
-    <title>Bhuvan</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="C:\Users\Bhuva\OneDrive\Desktop\web dev bootcamp\resourse\favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <!-- <div class="container"><div class="red"></div></div> -->
-    <div class="top-container">
-        <img class="top-cloud" src="C:\Users\Bhuva\OneDrive\Desktop\web dev bootcamp\resourse\cloud.png"
-            alt="cloud_Img">
-        <h1 class="iambhuvan">Iam Bhuvan</h1>
-        <h2 class="aprogrammer">a Programmer</h2>
-        <img class="bottom-cloud" src="C:\Users\Bhuva\OneDrive\Desktop\web dev bootcamp\resourse\cloud.png"
-            alt="cloud_Img">
-        <img class="mountain" src="C:\Users\Bhuva\OneDrive\Desktop\web dev bootcamp\resourse\mountain.png"
-            alt="mountain_Img">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-            <img class="profile-pic" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="profile-pic">
-            <h2>Hello.</h2>
-            <p>Iam a IOS and Android developer
-            </p>
-        </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="web-pic" src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="skill-pic">
-                <h3>web development</h3>
-                <p class="wed-para">Iam a expert in web development and app development in both IOS and Android</p>
-            </div>
-            <div class="skill-row">
-                <img class="ML-pic" src="https://cdn-icons-png.flaticon.com/128/4616/4616734.png" alt="skill-pic">
-                <h3>Machine learning engineer</h3>
-                <p>I have deep understanding in machine learning concept and its implementation</p>
-            </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>If you have any work related to me above mentioned skills please contact-me</h3>
-            <p>you can contact me through My email</p>
-            <a class="btn" href="https://accounts.google.com/SignOutOptions?hl=en-GB&continue=https://mail.google.com&service=mail">CONTACT ME</a>
-        </div>
-    </div>
-
-
-    <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/bhuvan-umesh-08807024a/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/Bhuvan_1349">Twitter</a>
-        <a class="footer-link" href="https://www.instagram.com/bhuvan1_3_4_9/">Instagram</a>
-        <p class="copyright">©2023 Bhuvan</p>
-    </div>
-
-</body>
-
-</html>
+}
+p{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    line-height: 3;
+}
+hr{
+    border: dotted #cbd6d6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 55px auto;
+}
+.iambhuvan{
+    margin: 0 auto;
+}
+.aprogrammer{
+    margin: 0 auto;
+}
+.top-container{
+    background-color: #CDF0EA;
+    position: relative;
+    padding: 100px;
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.bottom-container{
+    background-color: #afe1e1;
+    padding: 50px 0px 20px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 65px;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 3;
+}
+.profile-pic{
+    width: 200px;
+}
+.web-pic{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.ML-pic{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.btn {
+    background: #11CDD2;
+    background-image: -webkit-linear-gradient(top, #74c1c4, #2678ab);
+    background-image: -moz-linear-gradient(top, #74c1c4, #2678ab);
+    background-image: -ms-linear-gradient(top, #74c1c4, #2678ab);
+    background-image: -o-linear-gradient(top, #74c1c4, #2678ab);
+    background-image: linear-gradient(to bottom, #74c1c4, #2678ab);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #1cdbbe;
+    background-image: -webkit-linear-gradient(top, #1cdbbe, #218f7b);
+    background-image: -moz-linear-gradient(top, #1cdbbe, #218f7b);
+    background-image: -ms-linear-gradient(top, #1cdbbe, #218f7b);
+    background-image: -o-linear-gradient(top, #1cdbbe, #218f7b);
+    background-image: linear-gradient(to bottom, #1cdbbe, #218f7b);
+    text-decoration: none;
+}
+a{
+    color:#3e8796 ;
+    margin: auto 100px auto 100px ;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    text-decoration:none;
+}
+a:hover{
+    color: #f7feff;
+    text-decoration:underline;
+}
+.copyright{
+    color:#ffffff ;
+    font-size: 0.87rem;
+    font-weight: lighter;
+}
+/* .container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    background-color: red;
+} */
